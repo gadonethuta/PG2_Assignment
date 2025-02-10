@@ -101,6 +101,12 @@ void Player::Update(char* pK, char* k) {
     }
 }
 
+Player::~Player() {
+    for (int i = 0; i < kBulletCount_; i++) {
+        delete bullet_[i];
+    }
+}
+
 void Player::Draw() {
     EZDraw::DrawQuad(screenPoints_, WHITE);
 

@@ -22,6 +22,7 @@ private:
 	int sfxShoot_;
 public:
 	Player();
+	~Player();
 	void Update(char* pK, char* k);
 	void Draw();
 	
