@@ -15,9 +15,6 @@ const char kWindowTitle[] = "GC1A_07_テュウタ_エー_Polygon_Shooter";
 Matrix* Matrix::instance = nullptr;
 AudioMaster* AudioMaster::instance = nullptr;
 
-Vector2 ball = { 200.0f, 100.0f };
-Vector2 ballT = { 200.0f, 100.0f };
-
 bool exitGame = false;
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
